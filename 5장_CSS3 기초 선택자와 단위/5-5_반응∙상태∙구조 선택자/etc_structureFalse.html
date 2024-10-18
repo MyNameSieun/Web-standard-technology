@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>구조 선택자</title>
+    <style>
+      /* 주석된 코드같이 처리하면 원하는대로 작동하지 않음 
+      li > a:first-child {
+        color: red;
+      } */
+      li:first-child > a {
+        color: red;
+      }
+    </style>
+  </head>
+  <body>
+    <ul>
+      <li><a href="#">주의사항</a></li>
+      <li><a href="#">주의사항</a></li>
+      <li><a href="#">주의사항</a></li>
+      <li><a href="#">주의사항</a></li>
+      <li><a href="#">주의사항</a></li>
+      <li><a href="#">주의사항</a></li>
+    </ul>
+  </body>
+</html>
